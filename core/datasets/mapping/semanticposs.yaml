@@ -1,0 +1,78 @@
+labels:
+  0: "unlabeled"
+  4: "1 person"
+  5: "2+ person"
+  6: "rider"
+  7: "car"
+  8: "trunk"
+  9: "plants"
+  10: "traffic sign 1" # standing sign
+  11: "traffic sign 2" # hanging sign
+  12: "traffic sign 3" # high/big hanging sign
+  13: "pole"
+  14: "trashcan"
+  15: "building"
+  16: "cone/stone"
+  17: "fence"
+  21: "bike"
+  22: "ground"
+
+color_map: #bgr
+  0: [0, 0, 0] # "unlabeled"
+  4: [255, 30, 30] # "1 person"
+  5: [255, 30, 30] # "2+ person"
+  6: [255, 40, 200] # "rider"
+  7: [100, 150, 245] # "car"
+  8: [135,60,0] # "trunk"
+  9: [0, 175, 0] # "plants"
+  10: [255, 0, 0] # "traffic sign 1" # standing sign
+  11: [255, 0, 0] # "traffic sign 2" # hanging sign
+  12: [255, 0, 0] # "traffic sign 3" # high/big hanging sign
+  13: [255, 240, 150] # "pole"
+  14: [125, 255, 0] # "trashcan"
+  15: [255, 200, 0] # "building"
+  16: [50, 255, 255] # "cone/stone"
+  17: [255, 120, 50] # "fence"
+  21: [100, 230, 245] # "bike"
+  22: [128, 128, 128] # "ground"
+
+learning_map:
+  0: 255 #"unlabeled"
+  4: 2 # "1 person"
+  5: 2 # "2+ person"
+  6: 3 # "rider"
+  7: 0 # "car"
+  8: 8 # "trunk"
+  9: 7 # "plants"
+  10: 10 #"traffic sign 1" # standing sign
+  11: 10 # "traffic sign 2" # hanging sign
+  12: 10 # "traffic sign 3" # high/big hanging sign
+  13: 9 # "pole"
+  14: 255 # "trashcan"
+  15: 5 # "building"
+  16: 255 # "cone/stone"
+  17: 6 # "fence"
+  21: 1 # "bike"
+  22: 4 # "ground"
+
+reverse_label_name_mapping:
+  "person": 4
+  "rider": 6
+  "car": 7
+  "trunk": 8
+  "vegetation": 9
+  "traffic-sign": 10
+  "pole": 13
+  "building": 15
+  "fence": 17
+  "bicycle": 21
+  "other-ground": 22
+
+split: # sequence numbers
+  train:
+    - 00
+    - 01
+    - 02
+    - 03
+    - 04
+    - 05

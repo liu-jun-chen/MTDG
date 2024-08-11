@@ -1,0 +1,16 @@
+
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "/l/users/junchen.liu/3data_wrap_population/train.py",
+            "python": "/home/junchen.liu/.conda/envs/pointdr1/bin/python3.8",  
+            "args": ["/l/users/junchen.liu/3data_wrap_population/configs/kitti_syn_poss2stf/minkunet/cr0p5.yaml", "--run-dir=test_dir"],
+            "cwd": "/l/users/junchen.liu/3data_wrap_population"
+        }
+    ]
+}
