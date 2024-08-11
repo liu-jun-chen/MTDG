@@ -145,7 +145,7 @@ The data should be organized in the following format:
 ```
 The author provides class annotations in 'semanticstf.yaml'
 
-- Don't forget revise the data root dir in  `configs/kitti2stf/default.yaml` and `configs/synlidar2stf/default.yaml`
+- Don't forget revise the data root dir in  `configs/kitti_syn_poss2stf/default.yaml`
 
   
 ### Training
